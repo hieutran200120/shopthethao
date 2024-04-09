@@ -1,0 +1,61 @@
+.form_product_content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.clearfix {
+    margin-right: 10px;
+    position: relative;
+}
+
+.button-quantity {
+    border-radius: 0px;
+    background: var(--mainColor);
+    border: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 2.2rem;
+    margin: 0px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+#quantity-detail {
+    height: auto;
+    border: solid 1px #ddd;
+    text-align: center;
+    padding: 0px;
+    width: 60px;
+    height: 40px;
+    min-height: 40px;
+    text-align: center;
+    border-radius: 0px;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    margin: 0px 3px;
+    font-size: 1.8rem;
+}
+
+.input_number_product {
+    display: flex;
+}
+
+.ant-modal-root .ant-modal-wrap.ant-modal {
+    width: 665px;
+    transform-origin: 63.5px 604.667px;
+}
+.btn-submit {
+    background: "var(--mainColor)";
+    font-size: "1.6rem";
+    border-radius: 0
+}
+
+.btn-submit:hover {
+    background: var(--subColor);
+    color: #333;
+}
